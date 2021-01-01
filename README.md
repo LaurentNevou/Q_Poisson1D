@@ -1,6 +1,6 @@
 # Q_Poisson1D
 
-This code solves the Poison equation in 1D on inhomogeneous grid in semiconductors heterostructures. As a results, it gives the band bending profile for any heterostructures. It is specialy usefull for CMOS, diode and whatever npn & pnp junction. 
+This code solves the Poison equation in 1D on inhomogeneous grid in semiconductors heterostructures. As a results, it gives the band bending profile for any heterostructures. It is specially useful for CMOS, diode and whatever npn & pnp junction. 
 A strain model is included. It basically shifts the conduction and valence band edge
 The code does NOT take into account the non-parabolicity of the bands. The electron and the hole masses are loaded from the "material.csv" file for each material.
-Additionnal material can be added in the "materialDB_ZB.csv" file
+Additional material can be added in the "materialDB_ZB.csv" file
